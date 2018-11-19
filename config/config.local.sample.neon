@@ -9,6 +9,12 @@ parameters:
 		username: root
 		password:
 
+	smtp:
+		host: smtp.mailgun.org
+		secure: tls
+		username: info@example.com
+		password:
+
 	wp:
 		AUTH_KEY:         "YFo9OsdGdc CHANGE ON PRODUCTION YFo9OsdGdd"
 		SECURE_AUTH_KEY:  "rgoJjobcfb CHANGE ON PRODUCTION rgoJjobcfc"
@@ -35,9 +41,3 @@ parameters:
 		key: "0aa4c34cb6636fb8d4deacd150b1c7b4"
 		salt: "20030cf6ef8fc43168d77a7c05f4cd31"
 		projectId: # change this to name of this project
-
-mail:
-	host: smtp.mailgun.org
-	secure: tls
-	username: info@example.com
-	password:
